@@ -1,0 +1,3 @@
+[submodule "ydata-profiling"]
+	path = ydata-profiling
+	url = https://github.com/ydataai/ydata-profiling
