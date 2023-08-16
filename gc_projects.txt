@@ -1,0 +1,617 @@
+Notes of my google collab projects:
+----------------------------------------------------------------------------------
+Wine Food Pairing Data Prep & Wine Food Pairings:
+Wine recommendation: collab for preparation and recomendation. There's several copies...
+
+There should be some medium / towardsdatascience / kaggle project for this.
+Also see: https://github.com/RoaldSchuring/wine_recommender
+
+----------------------------------------------------------------------------------
+Wine Food Pairings:
+
+My version (includes custom recipes and other stuff).
+
+Wine Food Pairing Data Prep is required to generate data that this notebook uses... However, you can run this notebook with the data I have on gdrive.
+
+Based on: https://github.com/RoaldSchuring/wine_food_pairing
+https://www.kaggle.com/datasets/roaldschuring/wine-reviews
+
+----------------------------------------------------------------------------------
+MLPerceptron:
+
+Based on:
+https://towardsdatascience.com/multilayer-perceptron-explained-with-a-real-life-example-and-python-code-sentiment-analysis-cb408ee93141
+
+Multilayer Perceptron is a Neural Network that learns the relationship between linear and non-linear data
+
+Deep Learning algorithms use Artificial Neural Networks as their main structure.
+Neural Networks are inspired by, but not necessarily an exact model of, the structure of the brain.
+
+----------------------------------------------------------------------------------
+xor_bp:
+
+Based on:
+https://towardsdatascience.com/implementing-the-xor-gate-using-backpropagation-in-neural-networks-c1f255b4f20d
+
+Implementing the XOR Gate using Backpropagation in Neural Networks.
+
+----------------------------------------------------------------------------------
+Bayesian_Networks_Tutorial_covid-19:
+
+Based on:
+https://towardsdatascience.com/applying-bayesian-networks-to-covid-19-diagnosis-73b06c3418d8
+
+Applying Bayesian Networks to Covid-19 Diagnosis - Probabilistic decision making in highly complex scenarios.
+
+----------------------------------------------------------------------------------
+Linear Regression in Pytorch and Copy:
+
+Based on:
+https://www.analyticsvidhya.com/blog/2021/08/linear-regression-and-gradient-descent-in-pytorch/
+
+Linear Regression and Gradient Descent in PyTorch:
+
+Back Propagation is a powerful technique used in deep learning to update the weights and bias, thus enabling the model to learn. To better illustrate backpropagation, let’s look at the
+implementation of the Linear Regression model in PyTorch.
+
+Linear Regression is one of the basic algorithms in machine learning. Linear Regression establishes a linear relationship between input features (X) and output labels (y).
+
+In linear regression, each output label is expressed as a linear function of input features which uses weights and biases. These weights and biases are the model parameters that are
+initialized randomly but then get updated through each cycle of training/learning through the dataset. Training the model and updating the parameters after going through a single iteration
+of training data is known as one epoch. So now we should train the model for several epochs so that weights and biases can learn the linear relationship between the input features and
+output labels.
+
+----------------------------------------------------------------------------------
+Multilayer Perceptron and 1_Multilayer Perceptron:
+
+Based on:
+https://github.com/bentrevett/pytorch-image-classification/blob/master/1_mlp.ipynb
+See notebook called: 1_mpl
+
+Building machine learning models (specifically, neural networks) to perform image classification using PyTorch and Torchvision. 
+
+In this first notebook, we'll start with one of the most basic neural network architectures, a multilayer perceptron (MLP), also known as a feedforward network. The dataset we'll be using
+is the famous MNIST dataset, a dataset of 28x28 black and white images consisting of handwritten digits, 0 to 9.
+
+----------------------------------------------------------------------------------
+Svea_Data_analysis:
+
+Support ticket word clouds and:
+•	total_support_data innehåller alla ärenden från handläggarna från Nov 2021 - Feb 2022.
+•	top_words_data är en lista med de vanligaste orden med en separat kolumn för hur ofta de förekommer.
+•	first_top_word_data är en lista med ärenden som innehåller det vanligaste ordet "order". Detta kan alltså vara lite intressantare eftersom ordet "order" inte säger oss så mycket, men i
+denna lista nya lista ser vi alla ärenden som har "order" med i titeln och kan på så sätt se att det finns många ärenden handlar om kreditering / makulering av order(s).
+•	second_top_word_data följer samma princip som ovan. Listan innehåller ärenden som innehåller ordet "faktura", vilket är det nästmest vanliga ordet.
+•	third_top_word_data innehåller samma som ovan fast med det tredje vanligaste ordet "användare".
+•	I mappen Lists_by_months finns fyra listor som innehåller ärenden skickat från handläggarna månadsvis (mappen finns på sharepoint). 
+
+----------------------------------------------------------------------------------
+Order_Statistics:
+Generate order statitics: wordcloud and csv based on orders.txt (fetches through Payment Admin stage).
+
+----------------------------------------------------------------------------------
+Svea_python:
+More order statitics. Uses Payment Admin Stage to get info about what products / articles are sold the most.
+
+----------------------------------------------------------------------------------
+03_pytorch_computer_vision:
+
+From:
+https://github.com/mrdbourke/pytorch-deep-learning
+
+Computer vision is the art of teaching a computer to see.
+We're going to apply the PyTorch Workflow we've been learning in the past couple of sections to computer vision.
+
+See notebook for details!
+
+----------------------------------------------------------------------------------
+ai_3.1:
+
+Assignment 3.1: Tensor operation in PyTorch 
+
+Assignment 3.2: Linear models PyTorch:
+A: Create a straight line dataset using the linear regression formula (weight * X + bias).
+B: Build a PyTorch model by subclassing nn.Module.
+C: Create a loss function and optimizer using nn.L1Loss() and torch.optim.SGD (params, lr) respectively.
+
+Assignment 3.3: Building a multi-class PyTorch model: Create a multi-class dataset using the spirals data creation function from CS231n (see attached python script
+"CS231n-spiral-generator.py"
+
+Assignment 3.4: Building your own models for digit classification using MNIST dataset
+
+----------------------------------------------------------------------------------
+Lab-4-computer-vision-FashionMNIST-part-1, Lab-4-computer-vision-custom-data-part-2:
+
+See the version with suffix: -my AND ai_4
+
+Implement a "TinyVGG" classifier (as shown in Lecture 13) capable of fitting on the MNIST dataset.
+Starting from datasets.Food101 choose 5 classes among your own favorite foods. Implement an image classifier for the classes of foods from 4, based on the same “TinyVGG”
+
+----------------------------------------------------------------------------------
+PY0101EN-4-2-WriteFile
+
+Write and Save Files in Python
+
+----------------------------------------------------------------------------------
+Image Edge Detection:
+We implemented an edge detector using a gradient method as `gradient_edge_detector` in `perceptron.py`. Not sure if possible to run this one...
+
+----------------------------------------------------------------------------------
+01_pytorch_workflow:
+
+"Provides an outline for approaching deep learning problems and building neural networks with PyTorch".
+
+From: https://github.com/mrdbourke/pytorch-deep-learning
+
+----------------------------------------------------------------------------------
+06_pytorch_transfer_learning_my
+
+Based on: https://github.com/mrdbourke/pytorch-deep-learning
+
+Torchvision and Transfer learning.
+Transfer learning allows us to take the patterns (also called weights) another model has learned from another problem and use them for our own problem.
+
+There are two main benefits to using transfer learning:
+
+1. Can leverage an existing model (usually a neural network architecture) proven to work on problems similar to our own.
+2. Can leverage a working model which has **already learned** patterns on similar data to our own. This often results in achieving **great results with less custom data**.
+
+*We'll be putting these to the test for our FoodVision Mini problem, we'll take a computer vision model pretrained on ImageNet and try to leverage its underlying learned representations
+for classifying images of pizza, steak and sushi.*
+
+----------------------------------------------------------------------------------
+Image_Classification_CNN_medium:
+
+From: https://medium.com/thecyphy/train-cnn-model-with-pytorch-21dafb918f48
+
+CNN Model With PyTorch For Image Classification. 
+"In this article, we discuss building a simple convolutional neural network(CNN) with PyTorch to classify images into different classes. By the end of this article, you become familiar
+with PyTorch, CNNs, padding, stride, max pooling and you are able to build your own CNN model for image classification. The dataset we are going to use is Intel Image Classification
+dataset available on Kaggle..."
+
+----------------------------------------------------------------------------------
+ai_5.
+
+Lab 5 in AI/ML course.
+Build a "Character-Level RNN" to classify cities, villages and/or towns based on nations (line -> categories).
+
+Build a LSTM-based text classifier for sentiment analysis using 50K IMDB movie review, previously classified as negative and positive (data file in Studium movie_data.csv).
+Calculate, plot, compare accuracy and loss of 6 different models...
+
+The first based is based on Classifying_Names_RNN below.
+
+----------------------------------------------------------------------------------
+Classifying_Names_RNN:
+
+Based on:
+https://www.kaggle.com/code/niekvanderzwaag/the-world-as-we-know-it-a-brief-kmeans-exercise
+
+KMeans used on world map and classifying Stockholm to Sweden, Novosibirsk to Russia etc.
+
+----------------------------------------------------------------------------------
+Experimenting with NLP - Medium AND Copy of Experimenting with NLP - Medium:
+
+Practicing some Hugging Face Transformers Code
+This notebook goes through a lightning quick demonstration of some of the cutting-edge language models that are available, open source, to anyone with an internet connection. The
+organisation HuggingFace (https://huggingface.co/) has made them super easy to use, so feel free to play around with the inputs here if you want to see how these work.
+
+This code comes from https://huggingface.co/transformers/task_summary.html
+
+----------------------------------------------------------------------------------
+Training a new tokenizer from an old one:
+"Install the Transformers, Datasets, and Evaluate libraries to run this notebook".
+
+----------------------------------------------------------------------------------
+wikihow_train_eval_code:
+
+# "Reasoning about Goals, Steps, and Temporal Ordering with WikiHow" - codes
+
+Codes to reproduce the results in the paper "[Reasoning about Goals, Steps, and Temporal Ordering with WikiHow](https://arxiv.org/abs/2009.07690)". 
+
+Adapted from the [Huggingface Transformers repository](https://colab.research.google.com/github/ViktorAlm/notebooks/blob/master/MPC_GPU_Demo_for_TF_and_PT.ipynb).
+
+----------------------------------------------------------------------------------
+ai_6:
+
+1) Read the paper “Attention is all you need” [Vasvani et al 2017] found in Studium course page or at https://arxiv.org/abs/1706.03762
+
+2) Get familiar with Hugging face (community for open-source Transformer library) and follow course instruction at https://huggingface.co/course/chapter0/1.
+
+3) By means, of Hugging face Transformers library, use mT5 (a Transformers pretrained in a text-to-text framework) to perform text summarization on 2-3 customer review of your choice.
+
+----------------------------------------------------------------------------------
+data-analysis-on-pokemon-dataset:
+
+Based on: https://www.kaggle.com/code/anirudhchauhan/data-analysis-on-pokemon-dataset
+
+Pokemon dataset with Descriptive Statistics, Data Preprocessing & Feature Engineering, and Data Analysis & Visualizations.
+
+----------------------------------------------------------------------------------
+world-of-warcraft-data-analysis-my:
+
+Based on: https://www.kaggle.com/code/servietsky/world-of-warcraft-data-analysis/data
+
+Cool data analysis with awesome visualizations...
+
+----------------------------------------------------------------------------------
+LSTM-Autoencoders-time-series-ECG5000 Jonas Örnfelt:
+
+Based on: https://medium.com/@jwbtmf/lstm-autoencoder-for-anomaly-detection-for-ecg-data-5c0b07d00e50
+
+"
+An LSTM Autoencoder is an implementation of an autoencoder for sequence data using an Encoder-Decoder LSTM architecture. For a given dataset of sequences, an encoder-decoder LSTM is
+configured to read the input sequence, encode it, decode it, and recreate it. The performance of the model is evaluated based on the model’s ability to recreate the input sequence. Once
+the model achieves a desired level of performance recreating the sequence, the decoder part of the model may be removed, leaving just the encoder model. This model can then be used to
+encode input sequences to a fixed-length vector.
+
+The resulting vectors can then be used in a variety of applications, not least as a compressed representation of the sequence as an input to another supervised learning model.
+
+The Autoencoder’s job is to get some input data, pass it through the model, and obtain a reconstruction of the input. The reconstruction should match the input as much as possible. The
+trick is to use a small number of parameters, so your model learns a compressed representation of the data.
+
+In a sense, Autoencoders try to learn only the most important features (compressed version) of the data. Here, we’ll have a look at how to feed Time Series data to an Autoencoder. We’ll
+use a couple of LSTM layers (hence the LSTM Autoencoder) to capture the temporal dependencies of the data.
+
+To classify a sequence as normal or an anomaly, we’ll pick a threshold above which a heartbeat is considered abnormal.
+
+Reconstruction Loss When training an Autoencoder, the objective is to reconstruct the input as best as possible. This is done by minimizing a loss function (just like in supervised
+learning). This function is known as reconstruction loss. Cross-entropy loss and Mean squared error are common examples.
+
+We are going to look at the original dataset for “ECG5000” which is a 20-hour long ECG downloaded from Physionet.
+
+...
+
+We have 5 types of heartbeats (classes)...
+As we can see from the model, the normal class has the highest dataset approx. 2919. We can use this to train our model. We can also look at averaged time-series data for each class...
+Anomaly Detection in ECG Data We’ll use normal heartbeats as training data for our model and record the reconstruction loss...
+
+The theory behind the autoencoders is to try to reduce the dimensionality of the dataset and increase the dimensionality through autoencoding...
+
+We optimize the parameters of our Autoencoder model in such a way that a special kind of error — reconstruction error is minimized. In practice, the traditional squared error is often
+used. The Encoder uses two LSTM layers to compress the Time Series data input... Our Autoencoder passes the input through the Encoder and Decoder...
+
+Source code: https://github.com/abh2050/Codes/blob/master/LSTM_Autoencoder_for_ECG.ipynb
+"
+
+----------------------------------------------------------------------------------
+convAutoencoders_MNIST Jonas Örnfelt:
+
+Based on / similar to: https://medium.com/dataseries/convolutional-autoencoder-in-pytorch-on-mnist-dataset-d65145c132ac
+
+Convolutional Autoencoder in Pytorch on MNIST dataset.
+
+"
+The autoencoder is an unsupervised deep learning algorithm that learns encoded representations of the input data and then reconstructs the same input as output. It consists of two
+networks, Encoder and Decoder. The Encoder compresses the high-dimensional input into a low-dimensional latent code, called also latent code or encoded space, to extract the most relevant
+information from it, while the Decoder decompresses the encoded data and recreates the original input.
+
+The goal of this architecture is to maximize the information when encoding and minimize the reconstruction error. But what is the reconstruction error? Its name is also reconstruction loss
+and is usually the mean-squared error between the reconstructed input and the original input when the input is real-valued. In case the input data is categorical, the loss function used is
+the Cross-Entropy Loss...
+
+The autoencoder provides a way to compress images and extract the most important information.
+"
+
+----------------------------------------------------------------------------------
+VAE-for-Wine-PCA Jonas Örnfelt:
+
+Based on: https://www.kaggle.com/code/schmiddey/variational-autoencoder-with-pytorch-vs-pca
+
+"
+In this notebook I want to show two types of dimensionality reduction for tabular data: PCA and Autoencoders.
+I use the wine dataset to show how Variational Autoencoder (VAE) with PyTorch on tabular data works and compare it to the classic PCA approach. I use the PCA/VAE to reduce the
+dimensionality of dataset, in this case don to 3 Variables (embeddings). I then plot the embeddings in a 3D graph to show how VAE is similar to a PCA but works in a non-linear way.
+"
+
+----------------------------------------------------------------------------------
+plot_weighted_graph:
+
+Based on: https://networkx.org/documentation/stable/auto_examples/drawing/plot_weighted_graph.html
+
+An example using Graph as a weighted network.
+
+----------------------------------------------------------------------------------
+ai_algos:
+
+Notebook with tree search algorithms.
+For example:
+BFS tree search: https://www.techiedelight.com/least-cost-path-weighted-digraph-using-bfs/
+https://www.educative.io/answers/how-to-implement-a-breadth-first-search-in-python
+https://www.educative.io/answers/how-to-implement-depth-first-search-in-python
+https://likegeeks.com/depth-first-search-in-python/
+https://stackabuse.com/courses/graphs-in-python-theory-and-implementation/lessons/a-star-search-algorithm/
+Uniform Cost Search (UCS): https://www.youtube.com/watch?v=zmzfL65baiU
+
+----------------------------------------------------------------------------------
+ai_labs:
+
+Notebook I've used for AI labs. Includes: exercies (1.2), block world (might not be final version...), 
+
+----------------------------------------------------------------------------------
+ai_2.1:
+
+From AI/ML course Assignment 2.1. – Probability.
+Use Bayes’ Theorem and the imaginary statistics to calculate  (P(Corona  |  Symptoms)  in  Python...
+Write the joint distribution of the three Bayesian Networks below...
+And some more questions...
+
+Inspiration from:
+https://pomegranate.readthedocs.io/en/latest/BayesianNetwork.html
+https://datascience.eu/machine-learning/pymc3-what-it-is-and-how-it-works/
+http://www-desir.lip6.fr/~phw/aGrUM/docs/last/notebooks/Tutorial.ipynb.html
+https://statsthinking21.github.io/statsthinking21-python/10-BayesianStatistics.html
+https://towardsdatascience.com/how-to-interpret-covid-19-rapid-home-test-results-using-bayes-probability-simulation-part-1-2-edfb1d1bc224
+
+----------------------------------------------------------------------------------
+ai_2.3:
+
+Maze AI. "In this assignment, you will build a reinforcement learning agent that learns how to effectively find a goal in a simple 4x4 maze using Q learning".
+
+----------------------------------------------------------------------------------
+ai_2.2:
+
+AI labs. Maze with q-learning, weather prediction, drunkard's walk.
+
+----------------------------------------------------------------------------------
+chat_ai:
+
+A chat bot (probably better to use on linux)
+Requires uploaded model...
+
+----------------------------------------------------------------------------------
+Pokemon_same_as_poke_ml & poke_ml:
+
+Based on:
+https://towardsdatascience.com/become-a-pok%C3%A9mon-master-with-machine-learning-f61686542ef1
+https://github.com/kartikeya-rana/pokemon_battle/blob/master/Pokemon.ipynb
+
+See my custom predictions on the last cell(s) IN Poke_ML!
+
+----------------------------------------------------------------------------------
+pokemon-winner-prediction:
+
+From: https://github.com/jojoee/pokemon-winner-prediction
+
+This notebook splits into 3 parts
+1. Data preparation
+2. Analyze / visualize data, to find insight
+3. Model
+- 3.1 Create train data
+- 3.2 Perform model & evaluation
+- 3.3 Model summary
+
+See my custom predictions on the last cell(s)!
+
+----------------------------------------------------------------------------------
+discovering-the-best-pok-mon:
+
+Based on: https://www.kaggle.com/code/joaopdrg/discovering-the-best-pok-mon/notebook
+Nice plots and analysis to discover the best pokemon.
+Cool plot of Rayquaza vs Mewtwo in the end
+
+----------------------------------------------------------------------------------
+lrc_2022:
+
+Work on Lonely Runner Conjecture... See visualization from c++ project instead.
+
+----------------------------------------------------------------------------------
+random_ai:
+
+Testing of Wikipedia API:
+https://www.jcchouinard.com/wikipedia-api/
+https://towardsdatascience.com/wikipedia-api-for-python-241cfae09f1c
+
+----------------------------------------------------------------------------------
+Lab1a_Python_Expressions Jonas Örnfelt AND Lab1b_Python_Data_Types Jonas Örnfelt AND Lab1c_Python_Tables Jonas Örnfelt:
+
+Python exercises. Notebook basics... Adapation of https://github.com/data-8/data8assets
+
+----------------------------------------------------------------------------------
+credit_card_fraud_detection:
+
+School project for detecting fraud transactions.
+
+Based on some notebook from here: 
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?datasetId=310&sortBy=voteCount
+
+Also see:
+https://www.kaggle.com/code/shivamb/semi-supervised-classification-using-autoencoders
+https://www.kaggle.com/code/joparga3/in-depth-skewed-data-classif-93-recall-acc-now
+https://www.kaggle.com/code/janiobachmann/credit-fraud-dealing-with-imbalanced-datasets
+https://www.kaggle.com/code/nareshbhat/outlier-the-silent-killer
+
+----------------------------------------------------------------------------------
+Copy of Slutuppgift:
+
+With the data from the fictional data set created by IBM data scientists, we will
+investigate the hypothesis "*What are the main variables affecting employee attrition?*"
+
+Data analysis using:
+	LogisticRegression 
+	DecisionTreeClassifier 
+	RandomForestClassifier 
+	LGBMClassifier 
+	AdaBoostClassifier 
+	XGBClassifier 
+
+----------------------------------------------------------------------------------
+Lab2a_Analyzing_Bokmässan_Tweets Jonas Örnfelt:
+
+Lab 2a Analyzing Bokmässan Tweets. Answering questions and printing word clouds etc.
+
+----------------------------------------------------------------------------------
+Laboration_2_inlämning_del_2_Analys_av_tweets_från_bokmässan_nltk:
+
+From Data analysis Master's course. Pretty much same as Lab2a_Analyzing_Bokmässan_Tweets Jonas Örnfelt...
+
+----------------------------------------------------------------------------------
+Lab2b_Association_analysis_for_MatFörAlla Jonas Örnfelt:
+
+In this lab, we will look at transaction data from a supermarket.
+
+The grocery store *MatFörAlla* has trouble displaying its products optimally in the store.
+What the store wants to do is to increase sales to customers. For this, *MatFörAlla* has
+given you a dataset containing transaction data on what customers bought during every
+visit to the store.
+
+Perform association analysis:
+Find associations between items in the dataset using default values on support and confidence.
+
+----------------------------------------------------------------------------------
+Lec2_Exploring tweets with Twitter API:
+
+Some Twitter API exploring from Data analysis Master.
+
+----------------------------------------------------------------------------------
+Little_Women_example Little_Women_example_2:
+
+Read text file and plot interesting things like "Cumulative Number of Times Each Name
+Appears".
+
+----------------------------------------------------------------------------------
+Data Cleaning Tutorial - Real Python:
+
+Some good data cleaning functions etc.
+
+----------------------------------------------------------------------------------
+Inlämning_Laboration3_del2_klassificering_VT21:
+
+I denna andra del ska ni testa att klassificera ett annat dataset med hjälp av två olika
+modeller för klassificering, logistiskt regression och desicion trees (som klarar såväl
+regression som klassificering). Vi kommer använda ett dataset som har data om överlevare
+från Titanic.
+
+Lots of questions and answers in code!
+
+----------------------------------------------------------------------------------
+Lab3b_Text_Classification_of_Consumer_Complaints Jonas Örnfelt:
+
+Lab 3b - Text Classification of Consumer Complaints
+
+In this lab, you will try to categorize consumer complaints, based on the complaint
+narrative, using supervised machine learning with Support Vector Machines (SVM). You will
+also be able to experiment with different forms of data pre-processing to test the effects
+on the categorization of the text.
+
+We will use a package called `sklearn` (Scikit-learn) for this lab. This package contains
+machine learning algorithms for Python focusing on classification, regression and
+clustering.
+
+----------------------------------------------------------------------------------
+Lab4a_Functions_and_Visualizations Jonas Örnfelt:
+
+Welcome to Lab 4a. In this lab, we'll practice writing *functions* and using the
+`DataFrame` method `apply`.  We'll also learn about visualization using `matplotlib`.
+
+Answering questions, plots (histograms etc)...
+
+----------------------------------------------------------------------------------
+Lab3a_Classification_and_Regression Jonas Örnfelt:
+
+In this lab, we will work with classification and regression. 
+
+If we have a data set with two variables that depend on each other, then with the help of
+linear regression we can make a predictive model. We try to find a causal relationship
+between two variables, one of which depends on a number of independent variables. We will
+use a dataset that describes heights and weights of men and women.
+
+Also some analysis on titanic data (similar to
+Inlämning_Laboration3_del2_klassificering_VT21)
+
+----------------------------------------------------------------------------------
+covid_data_analysis:
+
+From: https://www.kaggle.com/code/ayushggarg/impact-of-covid-19-on-students-eda
+
+Includes:
+Answers of questsions related to covid. Example: What is the agewise distribution?
+Very nice plots!
+Heatmap (correlation) among numerical features
+
+----------------------------------------------------------------------------------
+av-janatahack-healthcare-analytics:
+
+From: https://www.kaggle.com/code/abisheksudarshan/av-janatahack-healthcare-analytics
+
+"Creating Blended Model".
+Uses 
+Random Forest Classifier and 
+Keras Sequential model (appropriate for a plain stack of layers where each layer has
+exactly one input tensor and one output tensor).
+
+Not sure if it uses LGBMClassifier?
+"Creating Blended Model"...
+Light Gradient Boosted Machine, or LightGBM for short, is an open-source library that
+provides an efficient and effective implementation of the gradient boosting algorithm.
+
+LightGBM extends the gradient boosting algorithm by adding a type of automatic feature
+selection as well as focusing on boosting examples with larger gradients. This can result
+in a dramatic speedup of training and improved predictive performance.
+
+As such, LightGBM has become a de facto algorithm for machine learning competitions when
+working with tabular data for regression and classification predictive modeling tasks. 
+
+----------------------------------------------------------------------------------
+* NEXT SEE finding-donors-classification:
+
+
+
+----------------------------------------------------------------------------------
+sentiment_analysis.py:
+Sentiment Analysis on IMDB Reviews using LSTM and Keras
+
+Similar to the notebook below:
+Sentiment_RNN_Solution (see below).
+
+----------------------------------------------------------------------------------
+sentiment-analysis-using-lstm-pytorch:
+
+In this kernel we will go through a sentiment analysis on imdb dataset using LSTM.
+* SKIP THIS ONE - See these notebooks instead:
+1 - Simple Sentiment analysis
+sentiment_analysis_IMDB_based_LSTM (from Simone in AI/ML course)
+sentiment_analysis_IMDB_based_LSTM
+Sentiment_RNN_Solution (Uses LSTM as well)
+
+In this notebook, you'll implement a recurrent neural network that performs sentiment analysis. 
+Using an RNN rather than a strictly feedforward network is more accurate since we can include information about the *sequence* of words. 
+
+----------------------------------------------------------------------------------
+multi_class_wine:
+
+Based on:
+https://towardsdatascience.com/pytorch-tabular-multiclass-classification-9f8211a123ab
+
+An implementation of multi-class classification on tabular data using PyTorch.
+
+----------------------------------------------------------------------------------
+Basic-tensors-operation:
+See AI directory.
+
+See:
+https://www.python-engineer.com/courses/pytorchbeginner/02-tensor-basics/
+https://www.youtube.com/watch?v=exaWOE8jvy8
+
+----------------------------------------------------------------------------------
+Finetuning BERT:
+In this example, we will work through fine-tuning a BERT model using the tensorflow-models PIP package.
+
+The pretrained BERT model this tutorial is based on is also available on (https://tensorflow.org/hub), to see how to use it refer to the [Hub Appendix].
+
+BERT:
+Bidirectional Encoder Representations from Transformers (BERT) is a transformer-based machine learning technique for natural language processing (NLP) pre-training developed by Google.
+
+BERT is at its core a transformer language model with a variable number of encoder layers and self-attention heads.
+
+BERT was pretrained on two tasks: language modeling (15% of tokens were masked and BERT was trained to predict them from context) and next sentence prediction (BERT was trained to predict
+if a chosen next sentence was probable or not given the first sentence). As a result of the training process, BERT learns contextual embeddings for words. After pretraining, which is
+computationally expensive, BERT can be finetuned with fewer resources on smaller datasets to optimize its performance on specific tasks.
+
+----------------------------------------------------------------------------------
+robot_test:
+
+Testing for AI lab (PlayArm lab)
+
+----------------------------------------------------------------------------------
+poke_ml and untitled:
+Empty for now

@@ -1,0 +1,9 @@
+ numpy
+ pandas
+ matplotlib  
+ wordcloud
+ scikit-learn  
+ mlxtend
+ seaborn
+ textmining3
+ graphviz

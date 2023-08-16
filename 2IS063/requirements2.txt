@@ -1,0 +1,12 @@
+pandas
+textmining3
+wordcloud
+matplotlib
+scikit-learn
+numpy
+nltk
+gensim
+pyLDAvis
+tqdm
+langdetect
+seaborn

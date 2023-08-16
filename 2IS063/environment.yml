@@ -1,0 +1,15 @@
+name: 2is063-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - pip:
+    - pandas
+    - textmining3
+    - wordcloud
+    - matplotlib
+    - mlxtend
+    - graphviz
+    - okpy
+    - scikit-learn
