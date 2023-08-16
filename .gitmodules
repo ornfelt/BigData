@@ -1,3 +1,6 @@
 [submodule "ydata-profiling"]
 	path = ydata-profiling
 	url = https://github.com/ydataai/ydata-profiling
+[submodule "PHYS3112"]
+	path = PHYS3112
+	url = https://github.com/kotarou3/PHYS3112
